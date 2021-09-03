@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0px;
+    background-color: #EAEAEA;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    background-color: #096192;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+    
+}
+
+.add-event{
+    width: 95%;
+    height: 250px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgba(195, 195, 206, 0.993);
+    display: flex;
+}
+
+.day-timetable{
+    width: 95%;
+    height: 250px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgba(195, 195, 206, 0.993);
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-row{
+    display: flex;
+
+}
+
+#row-1{
+    width: 712.88px;
+    justify-content: space-between;
+}
+#row-2{
+    width: 712.88px;
+    justify-content: space-between;
+}
+#row-3{
+    width: 712.88px;
+    justify-content: flex-start;
+}
+
+label{
+    padding: 10px;   
+}
+
+textarea{  
+    vertical-align: text-top;
+}
